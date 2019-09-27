@@ -1,0 +1,59 @@
+%%
+%%		Latex script for generating a PDF formula sheet in Kinetics
+%%		The expressions can be easily generated and copy & pasted from Desmoslab
+%%		
+%%
+
+\documentclass[6pt]{article}
+\usepackage{pifont}
+\usepackage{amsmath}
+\usepackage[legalpaper,  margin=0.1in]{geometry}
+
+
+\begin{document}
+\twocolumn
+
+\section*{Equations}
+
+%%% BEGIN Design equations
+\[ \frac{dN_{a}}{dt}=r_{a}V \ ; \ t=\int_{N_{a1}}^{N_{a0}}\frac{dN_{a}}{-r_{a}V} \ ; \ N_{a0}\frac{dX}{dt}=-r_{a}V \ ; \ t\ =\ N_{a0}\int_{0}^{X}\frac{dx}{-r_{a}V} \tag{p25, 25, 39, 40; Des. eq. batch }  \]
+
+\[ V=\frac{F_{a0}-F_{a}}{-r_{a}} \ =\ \frac{F_{a0}X}{-r_{a}} \tag{p43; Des. eq. CSTR} \]
+
+\[ \frac{dF_{a}}{dV}=r_{a} \ ; \  V=\int_{F_{a1}}^{F_{a0}}\frac{dF_{a}}{-r_{a}} \tag{p25, 25 ; Des. eq. PBR change V to W and r to r' for PBR} \]
+
+%%% END design equations
+
+
+\[ A+\frac{b}{a}B  \rightarrow  \frac{c}{a}C+\frac{d}{a}D \tag{p38; A is the basis - limiting reactant } \]
+
+\[ X_{max}=X_{eq} \tag{p38} \]
+
+\[ X=\frac{moles\ of\ a\ reacted}{moles\ of\ a\ fed} \tag{p38} \]
+
+\[ N_{a}=N_{a0}\left(1-X\right) \ ; \ F_{a}=F_{a0}\left(1-X\right) \tag{p38, 41} \]
+
+% \[ N_{a0}\cdot\left(\frac{dx}{dt}\right)=-r_{a}V\ \tag{p39} \]
+
+\[ C_{a0}=\frac{P_{a0}}{RT_{0}}=\frac{y_{ao}P_{0}}{RT_{0}} \tag{p41; concentration of ideal gas} \]
+
+
+
+
+
+
+
+
+\clearpage
+\section*{Terms}
+
+\[ r_{a} =  \frac{mol}{time \cdot volume}  \label{rate} \tag{p6} \]
+
+
+
+
+\[ r_{a}^{'}=\frac{mol}{time\cdot mass\ catalyst} \tag{p6} \]
+
+
+\end{document}
+
