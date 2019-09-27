@@ -4,10 +4,9 @@
 %%		
 %%
 
-\documentclass[6pt]{article}
-\usepackage{pifont}
+\documentclass[8pt]{article}
 \usepackage{amsmath}
-\usepackage[legalpaper,  margin=0.1in]{geometry}
+\usepackage[margin=0.1in]{geometry}
 
 
 \begin{document}
@@ -16,26 +15,36 @@
 \section*{Equations}
 
 %%% BEGIN Design equations
-\[ \frac{dN_{a}}{dt}=r_{a}V \ ; \ t=\int_{N_{a1}}^{N_{a0}}\frac{dN_{a}}{-r_{a}V} \ ; \ N_{a0}\frac{dX}{dt}=-r_{a}V \ ; \ t\ =\ N_{a0}\int_{0}^{X}\frac{dx}{-r_{a}V} \tag{p25, 25, 39, 40; Des. eq. batch }  \]
+Des. eq. batch; p25, p39, p40: 
+\[ \frac{dN_{a}}{dt}=r_{a}V \ ; \ t=\int_{N_{a1}}^{N_{a0}}\frac{dN_{a}}{-r_{a}V} \ ; \ N_{a0}\frac{dX}{dt}=-r_{a}V \ ; \ t\ =\ N_{a0}\int_{0}^{X}\frac{dx}{-r_{a}V}  \]
 
-\[ V=\frac{F_{a0}-F_{a}}{-r_{a}} \ =\ \frac{F_{a0}X}{-r_{a}} \tag{p43; Des. eq. CSTR} \]
+Des. eq. for a single CSTR; p43:
+\[ V=\frac{F_{a0}-F_{a}}{-r_{a}} \ =\ \frac{F_{a0}X}{-r_{a}}  \]
 
-\[ \frac{dF_{a}}{dV}=r_{a} \ ; \  V=\int_{F_{a1}}^{F_{a0}}\frac{dF_{a}}{-r_{a}} \tag{p25, 25 ; Des. eq. PBR change V to W and r to r' for PBR} \]
+ Des. eq. for a PFR. Change V to W and r to r' for PBR ; p25, p44:
+\[ \frac{dF_{a}}{dV}=r_{a} \ ; \  V=\int_{F_{a1}}^{F_{a0}}\frac{dF_{a}}{-r_{a}} \ ; \ F_{0}\frac{dX}{dV}=-r_{a} \ ;  \ V=\int_{X_1}^{X_2}\frac{F_{ao}}{-r_{a}}dX  \  \]
 
 %%% END design equations
 
+% p38; A is the basis - limiting reactant
+% \[ A+\frac{b}{a}B  \rightarrow  \frac{c}{a}C+\frac{d}{a}D \]
 
-\[ A+\frac{b}{a}B  \rightarrow  \frac{c}{a}C+\frac{d}{a}D \tag{p38; A is the basis - limiting reactant } \]
+\[ \frac{-r_{a}}{a}=\frac{-r_{b}}{b}=\frac{r_{c}}{c}=\frac{r_{d}}{d} \]
+\[ K=\frac{k_{j\ rev}}{k_{j}} \]
 
-\[ X_{max}=X_{eq} \tag{p38} \]
+% p38
+% \[ X_{max}=X_{eq} \]
 
-\[ X=\frac{moles\ of\ a\ reacted}{moles\ of\ a\ fed} \tag{p38} \]
+% p38
+% \[ X=\frac{moles\ of\ a\ reacted}{moles\ of\ a\ fed}  \]
 
-\[ N_{a}=N_{a0}\left(1-X\right) \ ; \ F_{a}=F_{a0}\left(1-X\right) \tag{p38, 41} \]
+% p38, 41
+% \[ N_{a}=N_{a0}\left(1-X\right) \ ; \ F_{a}=F_{a0}\left(1-X\right)  \]
 
-% \[ N_{a0}\cdot\left(\frac{dx}{dt}\right)=-r_{a}V\ \tag{p39} \]
+% % \[ N_{a0}\cdot\left(\frac{dx}{dt}\right)=-r_{a}V\ \tag{p39} \]
 
-\[ C_{a0}=\frac{P_{a0}}{RT_{0}}=\frac{y_{ao}P_{0}}{RT_{0}} \tag{p41; concentration of ideal gas} \]
+% p41; concentration of ideal gas
+% \[ C_{a0}=\frac{P_{a0}}{RT_{0}}=\frac{y_{ao}P_{0}}{RT_{0}} \]
 
 
 
@@ -54,6 +63,8 @@
 
 \[ r_{a}^{'}=\frac{mol}{time\cdot mass\ catalyst} \tag{p6} \]
 
+mean residence time 
+\[ \tau \equiv \frac{V}{v_0}  = \frac{ Volume \ of \ reactor }{ Volumetric \ flow \ rate} \]
 
 \end{document}
 
