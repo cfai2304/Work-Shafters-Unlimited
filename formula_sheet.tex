@@ -10,6 +10,7 @@
 
 
 \begin{document}
+
 \twocolumn
 
 \section*{Equations}
@@ -22,15 +23,64 @@ Des. eq. for a single CSTR; p43:
 \[ V=\frac{F_{a0}-F_{a}}{-r_{a}} \ =\ \frac{F_{a0}X}{-r_{a}}  \]
 
  Des. eq. for a PFR. Change V to W and r to r' for PBR ; p25, p44:
-\[ \frac{dF_{a}}{dV}=r_{a} \ ; \  V=\int_{F_{a1}}^{F_{a0}}\frac{dF_{a}}{-r_{a}} \ ; \ F_{0}\frac{dX}{dV}=-r_{a} \ ;  \ V=\int_{X_1}^{X_2}\frac{F_{ao}}{-r_{a}}dX  \  \]
+\[ \frac{dF_{A}}{dV}=r_{A} \ ; \  V=\int_{F_{A1}}^{F_{A0}}\frac{dF_{A}}{-r_{A}} \ ; \ F_{A0}\frac{dX}{dV}=-r_{A} \ ;  \ V=\int_{X_1}^{X_2}\frac{F_{A0}}{-r_{a}}dX  \  \]
 
 %%% END design equations
 
 % p38; A is the basis - limiting reactant
 % \[ A+\frac{b}{a}B  \rightarrow  \frac{c}{a}C+\frac{d}{a}D \]
 
+p124 Relative rates:
 \[ \frac{-r_{a}}{a}=\frac{-r_{b}}{b}=\frac{r_{c}}{c}=\frac{r_{d}}{d} \]
-\[ K=\frac{k_{j\ rev}}{k_{j}} \]
+
+\[ K=\frac{k_{j}}{k_{j \ rev}} \]
+
+\[ \delta\ =\ \frac{d}{a}+\frac{c}{a}-\frac{b}{a}-1\ \]
+
+\[ \theta_i \ =\ \frac{N_{i}}{N_{A0}}=\frac{C_{i}}{C_{A0}}=\frac{y_{i0}}{y_{A0}}=\frac{F_{i0}}{F_{A0}} \]
+
+
+\[ C_A \ = \frac{N_{A0}(1-X)}{V} \ = \ \frac{F_{A0}(1-X)}{\upsilon} \]
+
+
+ \[ \epsilon \ =\ \frac{N_{T}-N_{T0}}{N_{T0}X} \ ; \ \frac{N_T}{N_{T0}} \ = \ 1 + \epsilon X  =y_{A0}\delta \]
+
+% p109 Batch reactors with variable volume 
+% \[  V\ =\ V_{0}\left(\frac{P_{0}}{P}\right)\left(\frac{T}{T_{0}}\right)\left(1+\epsilon X\right) \]
+
+p114 Flow reactors with variable volumetric flow rate: 
+ \[ v \ = \ v_{0} (1 + \epsilon X ) \left(\frac{P_{0}}{P}\right)\left(\frac{T}{T_{0}}\right) \  \ \]
+
+\[ C_{j}=\ C_{A0}\frac{\left(\Theta_{j}+u_{j}X\right)}{\left(1+\epsilon X\right)}\left(\frac{P}{P_{0}}\right)\left(\frac{T_{0}}{T}\right)  \]
+
+\[ C_{a}=\frac{y_{a}P}{RT}  \]
+
+Arrhenious equations:  \newline
+Reaction rate k:
+\[ k\left(T\right)\ =\ k\left(T_{0}\right)\exp\left[\frac{E}{R}\left(\frac{1}{T_{0}}-\frac{1}{T}\right)\right] \]
+Equilibrium constant K:
+\[K\left(T\right)\ =\ K\left(T_{0}\right)\exp\left[\frac{\Delta H_{Rx}}{R}\left(\frac{1}{T_{0}}-\frac{1}{T}\right)\right]  \]
+
+\[ \ \tau\ =\ \frac{V}{v_{0}} \ = \ \frac{\textnormal{Volume of reactor }}{\textnormal{Volumetric flow rate}}\ \] 
+ 
+\[ \ D_a = \frac{\textnormal{Rate of reaction at entrance}}{ \textnormal{Entering flow rate of A} } \ \] 
+
+Ergun equation 
+% \[ \frac{dP}{dz}=-\frac{G}{\rho g_{c}D_{p}}\left(\frac{1-\Phi}{\Phi^{3}}\right)\left[\frac{150\left(1-\Phi\right)\mu}{D_{p}}+\ 1.75 G\right]  \]
+\[ \frac{dP}{dz}=-\beta_{0}\frac{P_{0}}{P}\left(\frac{T}{T_{0}}\right)\ \frac{F_{T}}{F_{T0}} \]
+
+\[ \frac{dP}{dW}=-\frac{\alpha}{2}\frac{T}{T_{0}}\frac{P_{0}}{\left(\frac{P}{P_{0}}\right)}\left(\frac{F_{T}}{F_{T0}}\right) \]
+
+\[ \alpha\ =\ \frac{2\ \beta_{0}\ }{A_{c}\rho_{c}\left(1-\Phi\right)P_{0}} \]
+
+\[ \beta_{0}=\frac{G}{\rho_{0}g_{c}D_{p}}\left(\frac{1-\Phi}{\Phi^{3}}\right)\left[\frac{150\left(1-\Phi\right)\mu}{D_{p}}+\ 1.75 G\right] \]
+
+(the first term in the bracket is dominant for laminar and the second term for turbulent flow)
+
+\[ \frac{dy}{dW}=-\frac{\alpha}{2y}\left(1+\epsilon X\right)\frac{T}{T_{0}}  \]
+
+\[ y\ =\ \frac{P}{P_{0}} \] 
+
 
 % p38
 % \[ X_{max}=X_{eq} \]
