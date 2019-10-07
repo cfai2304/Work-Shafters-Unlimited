@@ -1,10 +1,10 @@
 specific_humidity = 14.4
 h = specific_humidity/1000 # humidity as defined in the theory
-H_g_out = 2 # enthalpy of air leaving
-H_g_in = 3 # enthalpy of air entering
+H_g_out = 60 # enthalpy of air leaving
+H_g_in = 38 # enthalpy of air entering
 T_l_out = 28 # temperature of the water out
-H_0 = 234 # reference enthalpy
-T_0 = 234 # reference temp
+H_0 = 67 # reference enthalpy
+T_0 = 25 # reference temp
 latent_heat = 2401 #latent heat of evapo of water
 N = 100
 G = 0.42 # gas flow rate
